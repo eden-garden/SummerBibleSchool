@@ -1,0 +1,538 @@
+<!-- 2022여름성경학교 모바일 초청장 -->
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, viewport-fit=cover, user-scalable=yes">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--링크복사, 위로가기 토글 아이콘-->
+  <!-- <link rel="stylesheet" type="text/css" href="fade.css"> -->
+  <link rel="stylesheet" type="text/css" href="./files/framework.css"><!--  로딩 -->
+  <link rel="stylesheet" type="text/css" href="./files/style2.css"> <!-- 전체형태 -->
+  <!-- <link rel="stylesheet" type="text/css" href="slider1.css"> -->
+  <link rel="stylesheet" href="slider1.css">
+
+  <!-- <link rel="stylesheet" type="text/css" href="./files/calendar.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="./files/fonts.css"> -->
+  <!-- <link rel="shortcut icon" href="./loading.png"> -->
+  <link rel="stylesheet" href="fade.css">
+
+  <!--글씨 서서히 올라옴-->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com/"> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""> -->
+  <!-- <link href="./files/css2" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="./blossom.css"> -->
+  <!--벚꽃 내리기 css-->
+  <!-- 나눔 폰트 -->
+  <!-- <link href="./files/nanum-gothic.css" rel="stylesheet">
+	<link href="./files/nanum-myeongjo.css" rel="stylesheet">
+	<link href="./files/NanumAInMamSonGeurSsi.css" rel="stylesheet">
+	<link href="./files/NanumJangMiCe.css" rel="stylesheet">
+	<link href="./files/NanumHarABeoJiEuiNaNum.css" rel="stylesheet"> -->
+
+  <!-- 폰트어썸 -->
+  <script type="text/javascript" src="./files/jquery.js"></script>
+  <script type="text/javascript" src="./files/plugins.js"></script>
+  <script type="text/javascript" src="./files/underscore.js"></script>
+  <script type="text/javascript" src="./files/modernizr.custom.63321.js"></script>
+  <script type="text/javascript" src="./files/custom.js"></script>
+  <script charset="UTF-8" src="./files/kakao.js"></script>
+  <script type="text/javascript" src="fade.js"></script>
+  <script>
+    setTimeout(function () {
+      location.reload();
+    }, 900000); // 900000밀리초 = 900초후 페이지 새로고침
+
+</script>
+  
+<!-- <script>
+var imgArray=new Array();
+		imgArray[0]="img/main1.jpg";
+		imgArray[1]="img/main2.jpg";
+		imgArray[2]="img/main3.jpg";
+	
+		function showImage(){
+		  var imgNum=Math.round(Math.random()*2);
+		  var objImg=document.getElementById("introimg");
+		  objImg.src=imgArray[imgNum];
+		  setTimeout(showImage,3000);
+		}
+</script> -->
+		
+<!-- 테스트 -->
+<title>내 마음, 예수님의 집</title>
+<meta property="og:description" content="7월 22일 (금) ~ 7월 23일 (토)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#000000">
+<meta property="og:image" content="https://eden-garden.github.io/welcoming_worship/img/thumb.jpg"> 서울권 빼고 지도 링크 다넣었어
+
+</head>
+
+<!-- head 1차 정리 -->
+
+<body class="is-not-ios" onload="showImage()">
+  <!-- 배경음 -->
+  <!-- <iframe src="" allow="autoplay" loop="infinite" id="audio" style="display:none"></iframe>
+	<audio src="./bgmFast.mp3" autoplay loop></audio> -->
+  <!-- http://www.antiochi.net/ach30invite/bgmSlow.mp3 -->
+  <!-- 벚꽃 날리기
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    $(window).load(function () {
+      $('.page-content').sakura();
+    });
+  </script>
+  <script src="./blossom.js"></script> -->
+
+  <!-- 로딩 이미지 -->
+  <div id="preloader" class="preloader-light">
+    <div id="preload-spinner"></div>
+    <h1></h1>
+    <p>잠시만 기다려주세용</p>
+  </div>
+
+  <!-- body start -->
+  <div id="page-transitions" style="min-height: 592px;">
+    <!-- <div id="menu-hider" style="transition: all 300ms ease 0s;"></div> -->
+    <div class="page-content"">
+      <!-- <div class="main-img" id="thisone" >
+        <img id="2ndmain" src="img/배경.jpg" alt="second">
+      </div>   -->
+      <div id="first-part">
+        <img id="antioch"class="first-part " src="img/1. 사랑하는 친구야.png" alt="antioch">
+        <img id="welcoming"class="first-part " src="img/2. 여름성경학교.png" alt="antioch">
+        <img id="worship"class="first-part " src="img/3. 같이 가자.png" alt="antioch">
+        <!-- <a href="tel:01071533922"><img src="./img/3. 같이 가자.png" alt="test"></a> -->
+        <img id="img2022"class="first-part " src="img/4. 네 마음의 진짜 주인.png" alt="antioch">
+      </div>
+      <div id="second-part">
+        <div id="test0">
+          <img id="cross" class="second-part hidden reveal" src="img/4-5. 열린문+십자가.png" alt="antioch">
+          <img id="door" class="second-part reveal" onclick="toggleImg()" style="cursor:pointer" src="img/4-1. 닫힌 문.png" alt="antioch">
+          <img id="click" class="second-part reveal" onclick="toggleImg()" style="cursor:pointer" src="img/4-2. click.png" alt="antioch">
+        </div>
+        <div id="3rd">
+          <img id="jesus"class="second-part hidden" src="img/5. 바로 예수님이셔.png" alt="antioch">
+          <img id="lord" class="second-part hidden" src="img/6. 예수님을 주인으로.png" alt="antioch">
+          <img id="answer" class="second-part hidden" src="./img/궁금해2.png" alt="curiosity button" style="cursor:pointer" onclick="toggleImg2()">
+          <img id="vertical1" class="second-part hidden"  src="img/7. 예수님 만나러 가자.png" alt="antioch">
+          <img id="625"class="second-part hidden" src="img/8. 언제.png" alt="antioch">
+          <img id="gumi"class="second-part hidden" src="img/9. 어디서.png" alt="antioch">
+          
+          <div id="lastPart" class="second-part hidden">
+            <img id="shadow"class="second-part reveal" src="img/10-2. 우리 집에서 가까운 곳을.png" alt="antioch">
+            <img id="vertical"class="second-part reveal mb-30px" src="img/10. 장소 모서리가 둥근 사각형.png" alt="antioch">
+
+            <div id="location" class="reveal">
+              <div class="grid">
+                <img id=""class="second-part region" onclick="toggleImg3('mygumi')" src="img/구미.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('seoul')" src="img/서울.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('bundang')" src="img/분당.png" alt="antioch">
+              </div>
+              <div class="grid2">
+                <img id=""class="second-part region" onclick="toggleImg3('gangseo')" src="img/강서.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('geochang')" src="img/거창.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('gyeongju')" src="img/경주.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('daejeon')" src="img/대전.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('buyeo')" src="img/부여.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('bukdaegu')" src="img/북대구.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('bukbusan')" src="img/북부산.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('sangju')" src="img/상주.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('seodaegu')" src="img/서대구.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('seongju')" src="img/성주.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('suwon')" src="img/수원.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('yeongju')" src="img/영주.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('ilsan')" src="img/일산.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('changwon')" src="img/창원.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('cheongdo')" src="img/청도.png" alt="antioch">
+                <img id=""class="second-part region" onclick="toggleImg3('pohang')" src="img/포항.png" alt="antioch">
+              </div>
+            </div>
+            <!-- 구미 -->
+            <div id="mygumi" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/구미안디옥교회주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              <a href="http://naver.me/FqSYyDPW" target="_blank">
+                <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('mygumi')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 서울 -->
+            <div id="seoul" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/서울주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              <a href="http://naver.me/IgTnL08x" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('seoul')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 분당 -->
+            <div id="bundang" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/분당주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              <a href="http://naver.me/5s9lWGDz" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('bundang')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 강서 -->
+            <div id="gangseo" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/강서주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              <a href="" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('gangseo')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 거창 신경희 -->
+            <div id="geochang" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/거창주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01041840868" target="_blank"> 
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>
+              <a href="http://naver.me/5g3jpvyl" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('geochang')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 경주 이수연 -->
+            <div id="gyeongju" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/경주주소.png" alt="antioch">
+            <div class="img-flex"> 
+            <a href="tel:01050089131" target="_blank">  
+              <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+            </a>  
+            <a href="http://naver.me/xJNJNz9l" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+            </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('gyeongju')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 대전 김세리-->
+            <div id="daejeon" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/대전주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01063113825" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>  
+              <a href="http://naver.me/Gsa1Qy7v" target="_blank">
+            <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+            </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('daejeon')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 부여 최명옥 -->
+            <div id="buyeo" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/부여주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01046103814" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>  
+              <a href="http://naver.me/xEM4Jd8J" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('buyeo')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 북대구 권경미 -->
+            <div id="bukdaegu" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/북대구주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01044143386" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>                
+              <a href="http://naver.me/GoBsx7Q4" target="_blank">
+            <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+            </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('bukdaegu')" src="img/돌아가기.png" alt="antioch">
+            </div>
+            <!-- 북부산 박정운-->
+            <div id="bukbusan" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/북부산주소.png" alt="antioch">
+              <div class="img-flex"> 
+                <a href="tel:01072391506" target="_blank">  
+                  <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+                </a>  
+                <a href="http://naver.me/xgGq3EEP" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+                </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('bukbusan')" src="img/돌아가기.png" alt="antioch">
+            </div>
+            <!-- 상주 이재영-->
+            <div id="sangju" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/상주주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01093975852" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>  
+              <a href="http://naver.me/xJtEbZ9N" target="_blank">
+            <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+            </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('sangju')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 서대구 김숙이 -->
+            <div id="seodaegu" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/서대구주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01083881455" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>  
+              <a href="http://naver.me/5DHTNRRt" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('seodaegu')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 성주 신영미-->
+            <div id="seongju" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/성주주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01050637204" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>                
+              <a href="http://naver.me/5bRHJjO3" target="_blank">
+            <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+            </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('seongju')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 수원 -->
+            <div id="suwon" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/수원주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              <a href="" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('suwon')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 영주 박명자-->
+            <div id="yeongju" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/영주주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01048017267" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>  
+              <a href="http://naver.me/G6igOJ0Q" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('yeongju')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 일산 -->
+            <div id="ilsan" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/일산주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              <a href="" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('ilsan')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 창원 신은희-->
+            <div id="changwon" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/창원주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:0552536697" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>  
+              <a href="http://naver.me/GbE7PYaZ" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('changwon')" src="img/돌아가기.png" alt="antioch">
+            </div>
+            <!-- 청도 김미경-->
+            <div id="cheongdo" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/청도주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01026160937" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>  
+              <a href="http://naver.me/FWvgAopn" target="_blank">
+              <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('cheongdo')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+            <!-- 포항 조순정-->
+            <div id="pohang" class="hidden3 mb-30px">
+              <img id="" class="second-part img-address" src="img/포항주소.png" alt="antioch">
+            <div class="img-flex"> 
+              <a href="tel:01052820460" target="_blank">  
+                <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
+              </a>  
+              <a href="http://naver.me/FLDYkfWJ" target="_blank">
+                <img id="" class="second-part img-btn" src="img/찾아가기.png" alt="antioch">
+              </a>
+            </div>
+            <img id="" class="second-part img-back" onclick="toggleImg4('pohang')" src="img/돌아가기.png" alt="antioch">
+            </div>
+
+
+
+            <!-- 문 열기 click버튼 -->
+            <script>
+              document.getElementById("door").addEventListener("touchend", toggleImg)
+      
+              function toggleImg() {
+                document.getElementById("click").style.display = "none"
+                document.getElementById("door").classList.add("hidden2")
+                document.getElementById("cross").classList.remove("hidden")
+                document.getElementById("jesus").classList.remove("hidden")
+                document.getElementById("lord").classList.remove("hidden")
+                document.getElementById("answer").classList.remove("hidden")
+                // document.getElementById("answer").classList.add("blink")
+    
+                // document.getElementById("click").style.visibility = "hidden"; 
+                // document.getElementById("door").style.visibility = "hidden";
+              }
+            </script>
+            <!-- 궁금해 클릭시  -->
+            <script>
+              document.getElementById("answer").addEventListener("touchend", toggleImg2)
+      
+              function toggleImg2() {
+                document.getElementById("answer").classList.add("hidden")
+                document.getElementById("answer").classList.remove("blink")
+                document.getElementById("vertical1").classList.remove("hidden")
+                document.getElementById("625").classList.remove("hidden")
+                document.getElementById("gumi").classList.remove("hidden")
+                document.getElementById("lastPart").classList.remove("hidden")
+
+                // document.getElementById("click").style.visibility = "hidden"; 
+                // document.getElementById("door").style.visibility = "hidden";
+              }
+            </script>
+            <!-- 지역 별 클릭 시 지도&연락처 -->
+            <script>
+              function toggleImg3(loc){
+                document.getElementById("location").classList.add("hidden3")
+                document.getElementById(loc).classList.remove("hidden3")
+              }
+            </script>
+
+            <script>
+              function toggleImg4(loc){
+                document.getElementById("location").classList.remove("hidden3")
+                document.getElementById(loc).classList.add("hidden3")
+              }
+            </script>
+            
+          </div>
+          <img id="theme"class="second-part reveal" src="img/11. 주제 및 교회로고.png" alt="antioch">
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <!-- <div class="background-container" id="container2">
+				<img id="main2-1" class="main2 reveal" src="img/01.jpg" alt="main">
+				<img class="main2 reveal" src="img/02.jpg" alt="main">
+				<img class="main2 reveal" src="img/03.jpg" alt="main">
+				<img class="main2 reveal" src="img/04.jpg" alt="main">
+				<img class="main2 reveal" src="img/05.jpg" alt="main">
+				<img class="main2 reveal" src="img/06.jpg" alt="main">
+				<img class="main2 reveal" src="img/07.jpg" alt="main">
+				<img class="main2 reveal" src="img/08.jpg" alt="main">
+				<img id="main2-9"class="main2 reveal" src="img/09.jpg" alt="main">
+			</div> -->
+
+      <script charset="UTF-8" src="./files/sdk.js"></script>
+      <!-- <script charset="UTF-8" src="./files/kakao.js"></script> -->
+      <!-- <script charset="UTF-8" src="./files/services.js"></script> -->
+      </div>
+
+      <!-- 오시는길 끝 -->
+
+      <!-- 안내문구 끝 -->
+      <div class="footer footer-no-padding" style="transition: all 300ms ease 0s;">
+        <div class="footer-socials">
+          
+          <!-- <a id="kakao-link-btn" href="javascript:;" class="shadow-small icon icon-round no-border icon-xs">
+            <img src="./files/logo_kakaotalk.jpg" class="sns-logo"></a>
+          <script type="text/javascript">
+            // 사용할 앱의 JavaScript 키를 설정해 주세요. 1회만 설정-카카오내비랑 중복x
+            //Kakao.init('244dcfcf4f8177563ab5bd1f09f8c2a1');
+            // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
+            Kakao.Link.createDefaultButton({
+              container: '#kakao-link-btn',
+              objectType: 'feed',
+              content: {
+                title: '안디옥교회 창립 30주년 기념',
+                description: '2022년 5월 14일 토요일 오후 2시  ',
+                imageUrl: 'http://www.antiochi.net/ach30invite/files/theme.jpg',
+                link: {
+                  mobileWebUrl: 'http://www.antiochi.net/ach30invite',
+                  webUrl: 'http://www.antiochi.net/ach30invite'
+                },
+              },
+              buttonTitle: '자세히 보기',
+            });
+          </script> -->
+
+          
+        <!-- <p class="center-text bottom-0"><img src="img/안디옥교회 푸터.png" class="sns-logo"></p> -->
+        <p class="footer-text"> ©&nbsp;<script>
+            document.write(new Date().getFullYear())
+          </script> Antioch Church</a>, all rights reserved</p>
+      </div>
+    </div>
+
+
+
+    <div class="page-change-preloader preloader-light">
+      <div id="preload-spinner" class="spinner-red"></div>
+    </div>
+    <div role="dialog" id="baguetteBox-overlay">
+      <div id="baguetteBox-slider"></div><button type="button" id="previous-button" aria-label="Previous"
+        class="baguetteBox-button"><i class="fa fa-angle-left"></i></button><button type="button" id="next-button"
+        aria-label="Next" class="baguetteBox-button"><i class="fa fa-angle-right"></i></button><button type="button"
+        id="close-button" aria-label="Close" class="baguetteBox-button"><i class="fa fa-times"></i></button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

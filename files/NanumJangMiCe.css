@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'NanumJangMiCe';
+    src: url(../webfont/clova/NanumJangMiCe.eot);
+    src: url(../webfont/clova/NanumJangMiCe.eot?#iefix) format("embedded-opentype"), url(../webfont/clova/NanumJangMiCe.woff) format("woff"), url(../webfont/clova/NanumJangMiCe.ttf) format("truetype");
+}
