@@ -1406,7 +1406,6 @@ animation-name: slidein;
 #location {
   margin: 30px;
   margin-top: 50px;
-  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -1466,9 +1465,6 @@ animation-name: slidein;
   margin-bottom: 0px;
 }
 
-#lastPart{
-  margin-bottom: 30px;
-}
 #theme{
   margin-top: 30px;
 }
