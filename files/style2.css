@@ -1336,11 +1336,19 @@ animation-name: slidein;
 }
 
 #click{
-  width:100%;
-  height:auto;
+  width:auto;
+  height:70px;
   /* margin-top: -70px; */
-  animation: blink-effect 1.75s ease-in-out infinite;
+  animation: blink-effect 1s ease-in-out infinite;
 }
+
+#answer{
+  width: 40%;
+  height: 40%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
 @keyframes blink-effect {
   0%{
     opacity: 100%;
@@ -1354,7 +1362,7 @@ animation-name: slidein;
 }
 
 .blink {
-  animation: blink-effect 1.75s ease-in-out infinite;
+  animation: blink-effect 1s ease-in-out infinite;
 
   /*
   animation-name: blink-effect;
@@ -1363,15 +1371,10 @@ animation-name: slidein;
   animation-timing-function:step-end;
   */
 }
-#answer{
-  width: 40%;
-  height: 40%;
-  margin: auto;
-  margin-bottom: 100px;
-}
+
 .hidden {
-  opacity:0;
-  /* visibility: hidden; */
+  opacity:0!important;
+  visibility: hidden;
 }
 
 .hidden2 {
