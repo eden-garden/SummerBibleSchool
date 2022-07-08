@@ -1257,7 +1257,7 @@ animation-name: slidein;
 
 
 #antioch{
-  margin-top: 150px;
+  margin-top: 120px;
   animation-duration: 1.5s;
   animation-name: slidein;
   animation-iteration-count: finite;
@@ -1378,7 +1378,8 @@ animation-name: slidein;
   margin-left:155px!important;
   width:0px!important;
   visibility: hidden;
-  transition: all 2s;
+  transition: all 2.5s;
+  transition-timing-function:cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 .hidden3 {
