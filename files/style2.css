@@ -1426,7 +1426,7 @@ animation-name: slidein;
   row-gap: 30px;
   margin: auto;
   margin-top: 30px;
-  margin-bottom:;
+  margin-bottom:0;
 }
 
 .page-content{
