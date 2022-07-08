@@ -1388,10 +1388,6 @@ animation-name: slidein;
   transition: all 2s;
 }
 
-.mb-30px{
-  margin-bottom: 30px;
-}  
-
 #vertical{
   position: absolute;
   /* height:100%;
@@ -1467,5 +1463,5 @@ animation-name: slidein;
 }
 
 #theme{
-  margin-top: 30px;
+  margin-top: 60px;
 }
