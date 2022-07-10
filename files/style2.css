@@ -1392,10 +1392,9 @@ animation-name: slidein;
 }
 
 .hidden3 {
-  opacity: 0!important;
+  height: 0!important;
   display: none;
   transition: all 2s;
-  height: 0!important;
 }
 
 #vertical{
@@ -1492,7 +1491,7 @@ animation-name: slidein;
 }
 
 #character {
-  width:130px;
+  width:120px;
   height:auto;
   margin-left: 20%;
   margin-top: 60px;
@@ -1507,7 +1506,8 @@ animation-name: slidein;
 }
 
 #pigtail  {
-  margin-left: 63%;
+  margin-top: -10px;
+  margin-left: 65%;
   width:40px;
   height:auto;
 }
