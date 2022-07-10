@@ -1417,7 +1417,7 @@ animation-name: slidein;
 
 .grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 10px;
   margin-top: 55px;
   margin-bottom: 30px;
@@ -1509,5 +1509,10 @@ animation-name: slidein;
   margin-top: -10px;
   margin-left: 65%;
   width:40px;
+  height:auto;
+}
+
+.size-80 {
+  width:80%;
   height:auto;
 }
