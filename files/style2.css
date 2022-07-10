@@ -1342,11 +1342,17 @@ animation-name: slidein;
   animation: blink-effect 1s ease-in-out infinite;
 }
 
+#click2{
+  width:auto;
+  height:30px;
+  /* margin-top: -70px; */
+  animation: blink-effect 1s ease-in-out infinite;
+}
+
 #answer{
   width: 40%;
   height: 40%;
   margin: auto;
-  margin-bottom: 100px;
 }
 
 @keyframes blink-effect {
@@ -1389,6 +1395,7 @@ animation-name: slidein;
   opacity: 0!important;
   display: none;
   transition: all 2s;
+  height: 0!important;
 }
 
 #vertical{
@@ -1467,4 +1474,40 @@ animation-name: slidein;
 
 #theme{
   margin-top: 60px;
+}
+
+#down{
+  position: fixed;
+  width: 140px;
+  height: 140px;
+  opacity: 50%;
+  animation : blink-effect 2s ease-in-out infinite;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 540px;
+}
+
+#character, #pigtail, #wonder {
+  position: absolute;
+}
+
+#character {
+  width:130px;
+  height:auto;
+  margin-left: 20%;
+  margin-top: 60px;
+
+}
+
+#wonder{
+  width:80px;
+  height:auto;
+  margin-left: 55%;
+  margin-top: 60px;
+}
+
+#pigtail  {
+  margin-left: 63%;
+  width:40px;
+  height:auto;
 }

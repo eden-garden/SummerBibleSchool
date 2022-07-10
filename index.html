@@ -105,6 +105,8 @@ var imgArray=new Array();
       <!-- <div class="main-img" id="thisone" >
         <img id="2ndmain" src="img/배경.jpg" alt="second">
       </div>   -->
+      <!-- <img src="img/down.png" alt="아래 화살표" id="down"> -->
+
       <div id="first-part">
         <img id="antioch"class="first-part " src="img/1. 사랑하는 친구야.png" alt="antioch">
         <img id="welcoming"class="first-part " src="img/2. 여름성경학교.png" alt="antioch">
@@ -116,12 +118,20 @@ var imgArray=new Array();
         <div id="test0">
           <img id="cross" class="second-part hidden reveal" src="img/4-5. 열린문+십자가.png" alt="antioch">
           <img id="door" class="second-part reveal" onclick="toggleImg()" style="cursor:pointer" src="img/4-1. 닫힌 문.png" alt="antioch">
-          <img id="click" class="second-part reveal" onclick="toggleImg()" style="cursor:pointer" src="img/4-2. click.png" alt="antioch">
+          <img id="click" class="second-part reveal" onclick="toggleImg()" style="cursor:pointer" src="img/click.png" alt="antioch">
         </div>
         <div id="3rd">
           <img id="jesus"class="second-part hidden" src="img/5. 바로 예수님이셔.png" alt="antioch">
           <img id="lord" class="second-part hidden" src="img/6. 예수님을 주인으로.png" alt="antioch">
-          <img id="answer" class="second-part hidden blink" src="./img/궁금해2.png" alt="curiosity button" style="cursor:pointer" onclick="toggleImg2()">
+          <div id="charater-container" class="hidden3"> 
+            <img id="answer" class="second-part hidden3 blink" src="./img/궁금해2.png" alt="curiosity button" style="cursor:pointer" onclick="toggleImg2()">
+            <img id="character" class="second-part" src="img/character.png" alt="antioch">
+            <img id="wonder" class="second-part" src="img/wonder.png" alt="antioch">
+            <img id="pigtail" class="second-part" src="img/pigtail.png" alt="antioch">
+          </div>
+
+
+
           <img id="vertical1" class="second-part hidden"  src="img/7. 예수님 만나러 가자.png" alt="antioch">
           <img id="625"class="second-part hidden" src="img/8. 언제.png" alt="antioch">
           <img id="gumi"class="second-part hidden" src="img/9. 어디서.png" alt="antioch">
@@ -162,7 +172,7 @@ var imgArray=new Array();
             </div>
             <!-- 구미 -->
             <div id="mygumi" class="hidden3 ">
-              <img id="" class="second-part img-address" src="img/구미안디옥교회주소.png" alt="antioch">
+              <img id="" class="second-part img-address" src="img/구미주소.png" alt="antioch">
             <div class="img-flex"> 
               <a href="tel:0544656697" target="_blank"> 
                 <img id="" class="second-part img-btn" src="img/연락하기.png" alt="antioch">
@@ -442,12 +452,13 @@ var imgArray=new Array();
               document.getElementById("door").addEventListener("touchend", toggleImg)
       
               function toggleImg() {
+                document.getElementById("charater-container").classList.remove("hidden3")
                 document.getElementById("click").style.display = "none"
                 document.getElementById("door").classList.add("hidden2")
                 document.getElementById("cross").classList.remove("hidden")
                 document.getElementById("jesus").classList.remove("hidden")
                 document.getElementById("lord").classList.remove("hidden")
-                document.getElementById("answer").classList.remove("hidden")
+                document.getElementById("answer").classList.remove("hidden3")
                 // document.getElementById("answer").classList.add("blink")
     
                 // document.getElementById("click").style.visibility = "hidden"; 
@@ -459,7 +470,8 @@ var imgArray=new Array();
               document.getElementById("answer").addEventListener("touchend", toggleImg2)
       
               function toggleImg2() {
-                document.getElementById("answer").classList.add("hidden")
+                document.getElementById("charater-container").classList.add("hidden3")
+                document.getElementById("answer").classList.add("hidden3")
                 document.getElementById("answer").classList.remove("blink")
                 document.getElementById("vertical1").classList.remove("hidden")
                 document.getElementById("625").classList.remove("hidden")
@@ -568,13 +580,13 @@ var imgArray=new Array();
 <iframe 
   width="1" 
   height="1" 
-  src="https://www.youtube.com/embed/NCpC1ohnGRA?autoplay=1" 
+  src="https://www.youtube.com/embed/NCpC1ohnGRA?autoplay=0" 
   title="YouTube video player" 
   frameborder="0" 
   allow="autoplay;" 
   allowtransparency="true"
   allowfullscreen>
-
+s
 </iframe>
 
 </html>
