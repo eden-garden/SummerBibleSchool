@@ -1516,3 +1516,21 @@ animation-name: slidein;
   width:80%;
   height:auto;
 }
+#speaker{
+  height: 70px;
+  width: 70px;
+  z-index: 3;
+  margin-left: 5px;
+  opacity: 50%;
+  position:fixed;
+}
+#mute{
+  height: 40px;
+  width: 40px;
+  z-index: 3;
+  margin-left: 20px;
+  opacity: 50%;
+  position:fixed;
+  margin-top: 55px;
+
+}
