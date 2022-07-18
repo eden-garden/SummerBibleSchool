@@ -1231,7 +1231,9 @@ animation-name: slidein;
   height:100%;
   transition: all 2s ease-in-out;
 }
-
+#vertical1{
+  margin-top: 50px;
+}
 .third-part{
   width:100%;
   height: 100%;
@@ -1244,9 +1246,7 @@ animation-name: slidein;
 #vertical{
   height: 100%;
 }
-#vertical1{
-  margin-top: 50px;
-}
+
 #caj{
   margin-top:150px;
 }
@@ -1533,4 +1533,14 @@ animation-name: slidein;
   position:fixed;
   margin-top: 55px;
 
+}
+
+#instagramClip{
+  
+  width: 100%;
+  height: 600px;
+}
+
+#lastPart{
+  margin-bottom: 150px;
 }
